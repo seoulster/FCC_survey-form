@@ -1,0 +1,27 @@
+html {
+    background: rgb(207, 207, 207);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#description {
+    font-size: 15px;
+    text-align: center;
+    padding: 50px;
+}
+
+#title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 5px;
+}
+
+#form {
+    display: static;
+    background: rgb(235, 234, 234);
+    border-radius: 2px;
+    max-width: 900px;
+    width: 60%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}

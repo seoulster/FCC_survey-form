@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<link rel="stylesheet" media="screen" href="survey-form.css">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1 id="title"> Quick Survey </h1>
+    <div id="form">
+        <p id="description"> Let us know how we can improve</p>
+        <form id="survey-form"> 
+            Name <br>
+            <input type="text" placeholder="Enter your name" id="name" required> <br><br>
+            Email <br>
+            <input type="email" placeholder="Enter your email" id="email" required> <br><br>
+            Years of experience <br>
+            <input type="number" placeholder="Number of years" id="number-label"> <br><br>
+            Profession <br>
+            <select id="dropdown">
+                <option value="Student">Student</option>    
+                <option value="Professional">Professional</option>
+                <option value="Educator">Educator</option>
+                <option value="Unspecified">Unspecified</option>              
+            </select><br><br>
+            <fieldset>
+                <legend id="likely">How likely are you to recommend this product to your friend?</legend>
+                <input type="radio" name="likely" value="Very likely"> Very likely <br>
+                <input type="radio" name="likely" value="Maybe">Maybe<br>
+                <input type="radio" name="likely" value="Not sure">Not sure<br>
+            </fieldset><br><br> 
+            Comments and suggestions<br>
+            <textarea id="comments" name="comment" placeholder="Enter your comments and suggestions here"></textarea><br><br>
+            <input type="submit" value="Submit"> <br>
+        </form>
+    </div>
+</body>
+
+</html>
